@@ -10,7 +10,7 @@ This project aimed to demonstrate the configuration and use of Azure Sentinel fo
 - Advanced understanding of Kusto Query Language (KQL) for querying and analyzing log data.
 - Application of MITRE ATT&CK framework for mapping detected threats to adversary tactics and techniques.
 - Implementation of security best practices, including Just-in-Time (JIT) access and NSG configuration.
-- Hands-on experience with detecting and mitigating persistence techniques like scheduled tasks.
+- Hands-on experience with detecting, hunting and mitigating persistence techniques like scheduled tasks and brute force attacks.
 
 ---
 
@@ -56,6 +56,10 @@ This project aimed to demonstrate the configuration and use of Azure Sentinel fo
 9. **Generate Alerts and Analyze Logs**
    - Configured analytic rules to generate alerts for detected suspicious activity.
    - Used enriched alerts to provide detailed context for investigation.
+     
+10. **Simulate and detect brute force attacks**
+   - Conducted a simluated brute force attack on our VM to simulate threat hunting.
+   - Enabled logging for brute force attacks (Event ID `4625`) and wrote custom analytics rules in Sentinel to generate alerts.
 
 ---
 
